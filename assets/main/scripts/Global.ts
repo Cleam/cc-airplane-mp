@@ -49,11 +49,11 @@ export class Global {
   public init() {
     this.selfPlane = find("self-plane").getComponent(SelfPlane);
     this.bulletManager = find("bullet-manager");
+    this.gameManager = find("game-manager");
 
     const uiRoot = find("Canvas");
     // const ch = uiRoot.children;
     // console.log("ch :>> ", ch);
-    this.gameManager = uiRoot.getChildByName("game-manager");
     this.uiManager = uiRoot.getChildByName("ui-manager");
     this.audioManager = this.uiManager
       .getChildByName("audio-manager")

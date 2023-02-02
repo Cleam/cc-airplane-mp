@@ -51,13 +51,13 @@ export class Loading extends Component {
       "prefab/d3/bg",
       "prefab/d3/self-plane",
       "prefab/d3/bullet-manager",
+      "prefab/d3/game-manager",
       // ui
       // "prefab/ui/audio-manager",
       // "prefab/ui/volume-wrap",
       // "prefab/ui/game-start",
       // "prefab/ui/game",
       // "prefab/ui/game-over",
-      "prefab/ui/game-manager",
       "prefab/ui/ui-manager",
       // npc
       "prefab/npc/bullet01",
